@@ -3,7 +3,7 @@ The following module performs single shot text detection and is capable of worki
 
 ## Suitability
 
-This module is suitable for text-detection on optical characters including screenshots (arising from screen captures, optically embedded text on images, etc). The capabilities of this module stems from domain-specific data-preprocessing which could be extended externally before using the detection module. 
+This module is suitable for text-detection on optical characters including screenshots (arising from screen captures, optically embedded text on images, etc). The capabilities of this module stem from domain-specific data-preprocessing which could be extended externally before using the detection module. 
 
 
 ## Usage of main module: fetch_text_from_image
