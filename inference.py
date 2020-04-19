@@ -46,7 +46,7 @@ def resolution_correction(im):
     kernel = np.ones((2, 2), np.uint8)
     imgMorph = cv2.erode(imgContrast, kernel, iterations = 2)
     imgMorph = imgMorph.astype(np.uint8)
-    imgMorph = cv2.resize(im, None, fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
+    imgMorph = cv2.resize(imgMorph, None, fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
     return imgMorph
 
 def fetch_text_from_image_base(im, alphanumeric, correction=True):
